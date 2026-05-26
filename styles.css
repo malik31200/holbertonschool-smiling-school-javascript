@@ -1,0 +1,91 @@
+:root {
+    --main-color: #c271ff;
+    --dark: #071629;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background: #fff;
+    color: var(--dark);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.header {
+    background: url("images/pic_1.jpg") center/cover no-repeat;
+    min-height: 100vh;
+}
+
+.pricing-header {
+    background-image: url("images/pic_2.jpg");
+}
+
+.courses-header {
+    background-image: url("images/pic_3.jpg");
+}
+
+.navbar-line1,
+.navbar-line2,
+.navbar-line3 {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+}
+
+.btn-smile {
+    background: var(--main-color);
+    border-radius: 999px;
+    font-size: 14px;
+    padding: 10px 18px;
+}
+
+.btn-smile:hover,
+.btn-smile:active,
+.btn-smile:focus {
+    opacity: 0.9;
+}
+
+.hero h1 {
+    font-size: 72px;
+}
+
+.hero .list-group-item {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.hero-learn span {
+    color: var(--main-color);
+}
+
+.quotes {
+    background: var(--main-color);
+}
+
+.smiles,
+.footer,
+.search {
+    background: var(--dark);
+}
+
+.check-icon {
+    color: var(--main-color);
+    font-size: 24px;
+}
+
+ @media (max-width: 768px) {
+    .hero h1 {
+        font-size: 48px;
+    }
+ }
+
+ @media (max-width: 576px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+ }
