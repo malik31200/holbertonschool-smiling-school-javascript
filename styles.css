@@ -69,9 +69,34 @@ body {
 }
 
 .smiles,
-.footer,
-.search {
+.footer {
     background: var(--dark);
+}
+
+.search {
+    background: var(--main-color);
+}
+
+.search .dropdown,
+.search .dropdown .btn {
+    width: 100%;
+}
+
+.search .form-control,
+.search .dropdown .btn {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.search .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search .input-group-text {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
 }
 
 .check-icon {
@@ -105,3 +130,4 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
